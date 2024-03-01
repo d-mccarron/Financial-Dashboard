@@ -1,4 +1,5 @@
 export const data = [
+
 	{
 		id: 1,
 		name: {
@@ -9,6 +10,12 @@ export const data = [
 		status: 'On Hold',
 		method: 'PayPal',
 		date: '15 Minutes ago',
+		brand: 'UPN',
+		brandLogo: '/upn.png',
+		orderNum: 'UP-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '',
+		shipAdr: '1234 Main St, Springfield, IL'
 	},
 	{
 		id: 2,
@@ -19,7 +26,13 @@ export const data = [
 		total: 1195.95,
 		status: 'Processing',
 		method: 'PayPal',
-		date: '23 Minutes ago',
+		date: '15 Minutes ago',
+		brand: 'Dr. Marty',
+		brandLogo: 'https://cdn.drmartypets.com/chat/DrMartyCatsNdogs-400-150x150.png',
+		orderNum: 'DP-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '',
+		shipAdr: '44 E. West Street Ashland, OH 44805'
 	},
 	{
 		id: 3,
@@ -30,7 +43,13 @@ export const data = [
 		total: 495.85,
 		status: 'Completed',
 		method: 'Visa',
-		date: '1 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'Badlands Ranch',
+		brandLogo: '/upn.png',
+		orderNum: 'BL-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '131 Iroquois Street Southgate, MI 48195'
 	},
 	{
 		id: 4,
@@ -41,7 +60,13 @@ export const data = [
 		total: 150.45,
 		status: 'Processing',
 		method: 'MasterCard',
-		date: '1 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'UPN',
+		brandLogo: '/upn.png',
+		orderNum: 'UP-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '',
+		shipAdr: '809 North Peg Shop Dr. Ladson, SC 29456'
 	},
 	{
 		id: 5,
@@ -52,7 +77,13 @@ export const data = [
 		total: 175.25,
 		status: 'On Hold',
 		method: 'PayPal',
-		date: '2 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'Dr. Marty',
+		brandLogo: '/drm.png',
+		orderNum: 'UP-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '',
+		shipAdr: '7365 Cherry Hill Court Kingston, NY 12401'
 	},
 	{
 		id: 6,
@@ -63,7 +94,13 @@ export const data = [
 		total: 1295.75,
 		status: 'Completed',
 		method: 'Check',
-		date: '3 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'Badlands Ranch',
+		brandLogo: '/BL.png',
+		orderNum: 'BL-4567',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '8551 St Margarets Road Seymour, IN 47274'
 	},
 	{
 		id: 7,
@@ -74,7 +111,13 @@ export const data = [
 		total: 89.95,
 		status: 'Completed',
 		method: 'MasterCard',
-		date: '3 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'Dr. Marty',
+		brandLogo: '/dmp.png',
+		orderNum: 'DP-234534',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '683 North Wilson Avenue, Fayetteville AR 72701'
 	},
 	{
 		id: 8,
@@ -85,7 +128,13 @@ export const data = [
 		total: 689.45,
 		status: 'Completed',
 		method: 'Visa',
-		date: '7 Hour ago',
+		date: '15 Minutes ago',
+		brand: 'Badlands Ranch',
+		brandLogo: '/upn.png',
+		orderNum: 'BL-223434',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '11990 Poplar Ridge Road, Pasadena MD 21122'
 	},
 	{
 		id: 9,
@@ -96,7 +145,13 @@ export const data = [
 		total: 14.99,
 		status: 'Completed',
 		method: 'PayPal',
-		date: '1 Day ago',
+		date: '15 Minutes ago',
+		brand: 'Dr. Marty',
+		brandLogo: '/DP.png',
+		orderNum: 'DP-335472',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '9119 Whispering Willow Way, Tampa FL 33614'
 	},
 	{
 		id: 10,
@@ -107,6 +162,12 @@ export const data = [
 		total: 218.99,
 		status: 'Completed',
 		method: 'MasterCard',
-		date: '1 Day ago',
+		date: '15 Minutes ago',
+		brand: 'UPN',
+		brandLogo: '/upn.png',
+		orderNum: 'UP-1234',
+		orderStatus: 'Pending Fulfillment',
+		trackNum: '1234567890',
+		shipAdr: '8101 Northwind Avenue, Anchorage AK 99504'
 	},
 ];
